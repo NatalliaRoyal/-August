@@ -1,11 +1,15 @@
 @charset "UTF-8";
-
+// сброс стилей
 @import 'reset';
+// переменные
 @import 'variables';
+// шрифты
 @import 'fonts';
+// миксины
 @import 'mixins';
+// основные стили
 @import 'core';
-
+// блоки страницы
 @import 'blocks/intro.scss';
 @import 'blocks/features.scss';
 @import 'blocks/roadmap.scss';
